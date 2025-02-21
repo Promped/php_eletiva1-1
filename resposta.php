@@ -11,11 +11,19 @@
     <h1>Resposta</h1>
 
     <?php
-
-    $valor1 = $_POST['valor1'];
-    $valor2 = $_POST['valor2'];
-    $soma = $valor1 + $valor2;
-    echo $soma;
+    if ($_SERVER['REQUEST_METHOD'] == 'GET'){
+    try{
+        $valor1 = $_POST['valor1'];
+        $valor2 = $_POST['valor2'];
+        $soma = $valor1 + $valor2;
+        echo $soma;
+        $div = $valor1 / $valor2;
+        $mult = $valor1 * $valor2;
+        // RESTO DA DIV = %
+     } catch(Exception $e){
+        echo $e -> getMessage();
+     }
+    }
     ?>
 
 
