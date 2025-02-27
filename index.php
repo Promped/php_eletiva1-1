@@ -25,7 +25,7 @@
     <p>
         <?php
             $nome = "Vanessa"; 
-            echo ' o nome é: $nome'; //diferença de aspas simples e duplas
+            echo ' o nome é: $nome'; 
 
 
             //para "rodar" o cod php -S localhost:8080
