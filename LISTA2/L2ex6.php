@@ -13,7 +13,7 @@
                            
             <div class="mb-3">
                 <label for="celsius" class="form-label">Insira a temperatura em grau Celsius: </label>
-                <input type="number" id="celsius" name="celsius" class="form-control" required="">
+                <input type="text" id="celsius" name="celsius" class="form-control" required="">
             </div>
         
     

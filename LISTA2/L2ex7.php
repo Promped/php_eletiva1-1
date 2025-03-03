@@ -13,7 +13,7 @@
                            
             <div class="mb-3">
                 <label for="fahrenheit" class="form-label">Insira a temperatura em grau Fahrenheit: </label>
-                <input type="number" id="fahrenheit" name="fahrenheit" class="form-control" required="">
+                <input type="text" id="fahrenheit" name="fahrenheit" class="form-control" required="">
             </div>
         
     
