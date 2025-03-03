@@ -10,7 +10,7 @@
 
     <body>
         <h1>Exercício 4</h1>
-        <form method="post" action="resposta4.php">
+        <form method="post" action="L2resposta4.php">
                            
             <div class="mb-3">
                 <label for="valor1" class="form-label">Insira o primeiro valor: </label>
