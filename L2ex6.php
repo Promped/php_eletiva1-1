@@ -3,34 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Exercício 5</title>
+    <title>Exercício 6</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"  rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
 
     <body>
-        <h1>Exercício 5</h1>
-        <form method="post" action="L2resposta4.php">
+        <h1>Exercício 6</h1>
+        <form method="post" action="L2resposta6.php">
                            
             <div class="mb-3">
-                <label for="valor1" class="form-label">Insira o primeiro valor: </label>
-                <input type="number" id="valor1" name="valor1" class="form-control" required="">
+                <label for="celsius" class="form-label">Insira a temperatura em grau Celsius: </label>
+                <input type="number" id="celsius" name="celsius" class="form-control" required="">
             </div>
         
-            <div class="mb-3">
-                <label for="valor2" class="form-label">Insira o segundo valor: </label>
-                <input type="number" id="valor2" name="valor2" class="form-control" required="">
-            </div>
+    
         
-            <div class="mb-3">
-                <label for="valor3" class="form-label">Insira o segundo valor: </label>
-                <input type="number" id="valor3" name="valor3" class="form-control" required="">
-            </div>
-        
-
-
-
-
-
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
 
