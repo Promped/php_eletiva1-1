@@ -8,3 +8,17 @@
   </head>
   <body>
     <h1>Resposta do exercício 2</h1>
+    <?php
+        if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+            try{
+                $valor1 = $_POST["valor1"];
+                $valor2 = $_POST["valor2"];
+                $sub = $valor1 - $valor2;
+                echo "O resultado da subtração é: $sub";
+
+            } catch (Exception $e){
+                echo "Erro:" . $e->getMessage();
+            }
+
+
+        }
