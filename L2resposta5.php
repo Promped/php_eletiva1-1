@@ -13,14 +13,17 @@
                 try{
                     $valor1 = $_POST["valor1"];
                     $valor2 = $_POST["valor2"];
+                    $valor3 = $_POST["valor3"];
                     $div = $valor1 / $valor2;
 
                     if ($valor1 == 0 || $valor2 == 0) {
                         echo "O  numerador ou denominador não pode ser zero. Por favor, tente outro número";
                     } else {
-                        $divisao = $valor1 / $valor2;
-                        echo "O resultado da divisão é: $divisao";
+                        $media =( $valor1 + $valor2 + $valor3) /3;
+
+                        echo "O resultado da divisão é: $media";
                     }
+            
 
                 } catch (Exception $e){
                     echo "Erro:" . $e->getMessage();
@@ -32,3 +35,4 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
+
