@@ -14,7 +14,7 @@
                            
             <div class="mb-3">
                 <label for="raio" class="form-label">Insira o raio do circulo: </label>
-                <input type="number" id="raio" name="raio" class="form-control" required="">
+                <input type="text" id="raio" name="raio" class="form-control" required="">
             </div>
  
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
