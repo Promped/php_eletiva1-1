@@ -9,7 +9,7 @@
 
     <body>
         <h1>Exercício 13</h1>
-        <form method="post" action="L2resposta2.php">
+        <form method="post" action="L2resposta13.php">
                            
             <div class="mb-3">
                 <label for="metros" class="form-label">Insira o valor em metros: </label>

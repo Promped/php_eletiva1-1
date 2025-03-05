@@ -8,7 +8,7 @@
   </head>
   <body>
     <h1>Exercício 15 - IMC</h1>
-    <form method="post" action="ex15resposta.php">
+    <form method="post" action="L2resposta15.php">
       <div class="mb-3">
         <label for="peso" class="form-label">Digite seu peso (em kg):</label>
         <input type="number" step="0.01" id="peso" name="peso" class="form-control" required>
